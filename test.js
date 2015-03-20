@@ -1,8 +1,8 @@
 /*!
  * object-length <https://github.com/jonschlinkert/object-length>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT License
+ * Copyright (c) 2014-2015, Jon Schlinkert.
+ * Licensed under the MIT License.
  */
 
 'use strict';

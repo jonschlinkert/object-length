@@ -14,22 +14,24 @@
   "bugs": {
     "url": "https://github.com/jonschlinkert/object-length/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jonschlinkert/object-length/blob/master/LICENSE-MIT"
-    }
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/object-length/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
   ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
+  },
+  "dependencies": {
+    "for-own": "^0.1.1"
   },
   "devDependencies": {
-    "verb-tag-jscomments": ">= 0.2.0",
-    "verb": ">= 0.2.6",
     "mocha": "*"
   },
   "keywords": [
@@ -40,8 +42,5 @@
     "markdown",
     "templates",
     "verb"
-  ],
-  "dependencies": {
-    "for-own": "^0.1.1"
-  }
+  ]
 }

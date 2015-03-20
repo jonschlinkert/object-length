@@ -1,7 +1,7 @@
 {
   "name": "object-length",
-  "description": "Get the length of an object's properties, excluding prototype properties. Work with dontEnum bugs.",
-  "version": "0.1.0",
+  "description": "Get the length of an object's properties, excluding prototype properties. Works with dontEnum bugs.",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/object-length",
   "author": {
     "name": "Jon Schlinkert",
@@ -28,19 +28,12 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {
-    "for-own": "^0.1.1"
-  },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "should": "^5.2.0"
   },
   "keywords": [
-    "docs",
-    "documentation",
-    "generate",
-    "generator",
-    "markdown",
-    "templates",
-    "verb"
+    "length",
+    "object"
   ]
 }

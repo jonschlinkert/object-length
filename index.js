@@ -7,15 +7,14 @@
 
 'use strict';
 
+var hasOwn = Object.prototype.hasOwnProperty;
+
 module.exports = function objectLength(o) {
+  if (o == null) return;
   var i = 0;
 
-  if (o == null) {
-    return i;
-  }
-
   for (var key in o) {
-    if ({}.hasOwnProperty.call(o, key)) {
+    if (hasOwn.call(o, key)) {
       i++;
     }
   }
